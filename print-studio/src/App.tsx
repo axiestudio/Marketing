@@ -1,8 +1,11 @@
 import { useState } from 'react';
 import './styles/print.css';
 import { BusinessCard } from './components/BusinessCard';
+import { LinkedInBanner } from './components/LinkedInBanner';
 
 function App() {
+  const isBannerMode = new URLSearchParams(window.location.search).get('banner') === 'true';
+
   const [config, setConfig] = useState({
     name: 'Stefan Miranda',
     title: 'Co-Founder & Developer Relation',
@@ -27,6 +30,14 @@ function App() {
       tagline: newLang === 'sv' ? 'FRAMTIDENS KUNDSERVICE' : 'The Future of Service'
     }));
   };
+
+  if (isBannerMode) {
+    return (
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', background: '#000' }}>
+        <LinkedInBanner />
+      </div>
+    );
+  }
 
   return (
     <div className="app-container">
