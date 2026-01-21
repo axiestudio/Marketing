@@ -4,182 +4,313 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Axie Studio - Agenter Som Faktiskt Jobbar</title>
+    <title>Axie Studio - Ligg Steget Före</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- PAGE 1: COVER -->
-    <div class="page page-cover">
-        <div class="cover-header">
-            <div style="display:flex; align-items:center; gap:10px;">
-                <img src="assets/logo.png" style="height:24px;">
-                <span style="font-weight:700; letter-spacing:0.05em; font-size:12pt;">AXIE STUDIO</span>
-            </div>
-            <div class="brand-pill">FRAMTIDENS KUNDSERVICE</div>
-        </div>
-
-        <div class="hero-section">
-            <img src="assets/abstract_agent_hero.png" class="hero-img">
-        </div>
-
-        <div class="cover-main-text">
-            <h1 class="cover-headline">AGENTER SOM<br><span class="text-gradient">FAKTISKT JOBBAR.</span></h1>
-            <div class="cover-lead">
-                Sluta bygga chatbots. Börja driftsätta revisionssäkra, röststyrda agenter som orkestrerar din
-                affärslogik i realtid.
-            </div>
-        </div>
-    </div>
-
-    <!-- PAGE 2: THE STUDIO DASHBOARD -->
-    <div class="page page-dashboard">
-        <h2 style="font-size: 32pt; margin-top: 10px; margin-bottom: 20px;">AI AGENT KONFIGURATION</h2>
-        <p style="color: var(--text-muted); max-width: 500px; margin-bottom: 30px;">
-            En enhetlig studiomiljö för att konfigurera intelligenta chatbots. Definiera identitet, uppdrag och
-            kunskapskällor för att säkerställa att din agent representerar ditt varumärke perfekt.
-        </p>
-
-        <div class="dash-visual-container">
-            <img src="assets/agent_config_dashboard_sv.png" class="dash-img">
-        </div>
-
-        <div class="grid-features">
-            <div class="feature-block">
-                <h3>Kunskapsbas (Knowledge Base)</h3>
-                <p>Koppla din agent till företagets dokument och data. Den lär sig er identitet, uppdrag och tjänster
-                    för att ge korrekta svar dygnet runt.</p>
-            </div>
-            <div class="feature-block">
-                <h3>Identitet & Uppdrag</h3>
-                <p>Skräddarsy agentens personlighet och röst. Se till att varje interaktion linjerar med ert varumärkes
-                    ton och värderingar.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- PAGE 3: VOICE & ACTION -->
-    <div class="page page-voice">
-        <div class="voice-content-side">
-            <div class="label" style="margin-bottom: 20px;">/// LIVEKIT + ELEVENLABS</div>
-            <h2 style="font-size: 36pt; line-height: 1;">LATENS ÄR<br><span class="text-gradient">FIENDEN.</span></h2>
-
-            <p style="margin-top: 20px; color: var(--text-muted); font-size: 11pt;">
-                Varför Axie-agenter känns mänskliga:
-            </p>
-
-            <ul style="margin-top: 20px; list-style: none; color: var(--text-muted);">
-                <li style="margin-bottom: 15px;">
-                    <strong style="color:white; display:block;">1. Verklighetstrogna Röster</strong>
-                    Med ElevenLabs Turbo v2.5 för känslomässig nyans.
-                </li>
-                <li style="margin-bottom: 15px;">
-                    <strong style="color:white; display:block;">2. Smart Turn-Taking (VAD)</strong>
-                    Via <em>Voice Activity Detection</em> och VAD Barge-in vet våra agenter exakt när de ska lyssna.
-                </li>
-                <li style="margin-bottom: 15px;">
-                    <strong style="color:white; display:block;">3. Noll Latens</strong>
-                    Optimerad edge-transport innebär att samtalet flyter naturligt, precis som ett vanligt samtal.
-                </li>
-            </ul>
-
-            <div
-                style="margin-top: 30px; padding: 20px; border: 1px solid var(--card-border); border-radius: 8px; background: rgba(255,255,255,0.02);">
-                <span class="label" style="color: var(--accent-color);">REAL WORLD USE CASE</span>
-                <p style="margin-top: 10px; font-size: 10pt;">
-                    <strong>Kundtjänst 24/7</strong><br>
-                    "Svarar på återkommande frågor via Kunskapsbasen."<br>
-                    Agenten förstår företagets Identitet, Uppdrag, Erbjudanden och Tjänster – utan och innan.
-                </p>
-            </div>
-        </div>
-        <div class="voice-visual-side">
-            <img src="assets/mobile_voice_action.png" class="voice-img">
-        </div>
-    </div>
-
-    <!-- PAGE 4: SPECS & CONTACT -->
-    <div class="page page-specs">
-        <div class="specs-main-grid">
-            <div>
-                <h2 class="specs-title">VARFÖR VÄLJA OSS?</h2>
-                <div style="margin-bottom: 20px; font-size: 14pt; color: white; font-weight: 600;">
-                    Halka inte efter. Var först.
-                </div>
-                <p style="color: var(--text-muted); margin-bottom: 30px;">
-                    Branschstandard som använder den senaste tekniken för att erbjuda nästa generations kundservice.
-                </p>
-
-                <div class="spec-list">
-                    <div class="spec-row">
-                        <span class="spec-key">1. Hantera</span>
-                        <span class="spec-val">Chatbots & Agenter</span>
+    <!-- SHEET 1 OUTSIDE: PAGE 8 (Back) & PAGE 1 (Cover) -->
+    <div class="spread">
+        <!-- PAGE 8: CONTACT & SPECS (Back Cover) -->
+        <div class="page page-specs">
+            <div class="specs-main-grid">
+                <div>
+                    <h2 class="specs-title">TIDEN ÄR NU.</h2>
+                    <div style="margin-bottom: 20px; font-size: 14pt; color: white; font-weight: 600;">
+                        Dina konkurrenter agerar redan. Gör du?
                     </div>
-                    <div class="spec-row">
-                        <span class="spec-key">2. Hantera</span>
-                        <span class="spec-val">Intelligent Kalender</span>
+                    <p style="color: var(--text-muted); margin-bottom: 30px;">
+                        Avståndet mellan de som agerar nu och de som väntar ökar för varje dag. Missa inte chansen att
+                        definiera er marknadsposition.
+                    </p>
+
+                    <div class="spec-list">
+                        <div class="spec-row">
+                            <span class="spec-key">Steg 1.</span>
+                            <span class="spec-val">Eliminera Overhead.</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-key">Steg 2.</span>
+                            <span class="spec-val">Effektivisera Driften.</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-key">Steg 3.</span>
+                            <span class="spec-val">Dominera Er Nisch.</span>
+                        </div>
                     </div>
-                    <div class="spec-row">
-                        <span class="spec-key">3. Hantera</span>
-                        <span class="spec-val">Tid & Närvaro</span>
+
+                    <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--card-border);">
+                        <h3 style="color: var(--accent-color); margin-bottom: 10px;">STRATEGISK RÅDGIVNING</h3>
+                        <p style="color: var(--text-muted); font-size: 10pt;">
+                            Osäker på nästa steg? Vi erbjuder strategisk rådgivning för att integrera AI i just er
+                            affärsmodell. Var den som driver förändringen.
+                        </p>
                     </div>
                 </div>
 
-                <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--card-border);">
-                    <h3 style="color: var(--accent-color); margin-bottom: 10px;">VI ERBJUDER RÅDGIVNING</h3>
+                <div
+                    style="border-left: 1px solid var(--card-border); padding-left: 40px; display:flex; flex-direction:column; justify-content:center;">
+                    <p
+                        style="font-size: 24pt; font-family: var(--font-heading); font-weight: 700; margin-bottom: 20px;">
+                        Fatta Beslutet.
+                    </p>
                     <p style="color: var(--text-muted); font-size: 10pt;">
-                        Osäker på var ni ska börja? Vi erbjuder rådgivning kring hur ni kan använda AI som ett verktyg
-                        för att skala er verksamhet. Arbeta med oss.
+                        Från autonom försäljning 24/7 till kundtjänst i enterprise-skala—Axie Studio är motorn som
+                        driver er tillväxt.
                     </p>
                 </div>
             </div>
 
-            <div
-                style="border-left: 1px solid var(--card-border); padding-left: 40px; display:flex; flex-direction:column; justify-content:center;">
-                <p style="font-size: 24pt; font-family: var(--font-heading); font-weight: 700; margin-bottom: 20px;">
-                    Skala med Förtroende.
-                </p>
-                <p style="color: var(--text-muted); font-size: 10pt;">
-                    Från enstaka driftsättningar till företagskluster – Axie Studio är byggt för att hantera tung
-                    samtidig röstbelastning utan att försämra användarupplevelsen.
-                </p>
+            <div class="cta-section">
+                <!-- QR & Contact -->
+                <div class="footer-right" style="flex: 1;">
+                    <div class="qr-container">
+                        <img src="assets/qr-code.png" class="qr-img">
+                        <span class="qr-label">Skanna för att Säkra Er Plats</span>
+                    </div>
+                    <div class="contact-details">
+                        AXIE STUDIO<br>
+                        axiestudio.se<br>
+                        stefan@axiestudio.se<br>
+                        +46 735132620
+                    </div>
+                </div>
+                <!-- Col 1: CTA -->
+                <div class="cta-group" style="flex: 1; text-align: center;">
+                    <div class="cta-big">SÄKRA ER PLATS</div>
+                </div>
             </div>
         </div>
 
-        <div class="cta-section">
-            <!-- Col 1: CTA -->
-            <div class="cta-group">
-                <div class="label" style="margin-bottom: 15px; color: #fff;">REDO ATT DRIFTSÄTTA?</div>
-                <div class="cta-big">BEGÄR ÅTKOMST</div>
+        <!-- PAGE 1: COVER -->
+        <div class="page page-cover">
+            <div class="cover-header">
+                <div style="display:flex; align-items:center; gap:10px;">
+                    <img src="assets/logo.png" style="height:24px;">
+                    <span style="font-weight:700; letter-spacing:0.05em; font-size:12pt;">AXIE STUDIO</span>
+                </div>
+                <div class="brand-pill">FRAMTIDEN ÄR HÄR</div>
             </div>
 
-            <!-- Col 2: Offer -->
-            <div class="offer-group">
-                <div>
-                    <div class="offer-label">INGÅR VID DRIFTSÄTTNING</div>
-                    <div class="offer-desc">
-                        Gratis <strong>Starter Hemsida</strong> & <strong>Mobilapp</strong>.<br>
-                        Redo för lansering på <strong>App Store</strong> & <strong>Google Play</strong>.
-                    </div>
-                </div>
-                <div class="app-badges">
-                    <img src="assets/apple_store_darkmode.jpeg" class="app-badge">
-                    <img src="assets/google_store_darkmode.jpeg" class="app-badge">
-                </div>
+            <div class="hero-section">
+                <img src="assets/abstract_agent_hero.png" class="hero-img">
             </div>
 
-            <!-- Col 3: QR & Contact -->
-            <div class="footer-right">
-                <div class="qr-container">
-                    <img src="assets/qr-code.png" class="qr-img">
-                    <span class="qr-label">Boka Möte Direkt</span>
+            <div class="cover-main-text">
+                <div class="label" style="margin-bottom: 20px;">/// AUTONOM ARBETSSTYRKA</div>
+                <h1 class="cover-headline">LIGG STEGET<br><span class="text-gradient">FÖRE.</span></h1>
+                <div class="cover-lead">
+                    Sluta bygga enklare chattbotar. Börja implementera revisionssäkra, röststyrda agenter som
+                    orkestrerar er affärslogik i realtid. Var först.
                 </div>
-                <div class="contact-details">
-                    AXIE STUDIO<br>
-                    axiestudio.se<br>
-                    stefan@axiestudio.se<br>
-                    +46 735132620
+            </div>
+        </div>
+    </div>
+
+    <!-- SHEET 1 INSIDE: PAGE 2 (Dashboard) & PAGE 7 (ROI) (Tumbles) -->
+    <div class="spread tumble">
+        <!-- PAGE 2: THE STUDIO DASHBOARD -->
+        <div class="page page-dashboard">
+            <div class="label">/// GRÄNSSNITTET</div>
+            <h2 style="font-size: 32pt; margin-top: 10px; margin-bottom: 20px;">DESIGN DINA<br><span
+                    class="text-gradient">AGENTER.</span></h2>
+            <p style="color: var(--text-muted); max-width: 500px; margin-bottom: 30px;">
+                En enhetlig studiomiljö för att konfigurera intelligenta agenter. Definiera deras identitet, uppdrag och
+                ge dem kunskapen att representera ert varumärke perfekt.
+            </p>
+
+            <div class="dash-visual-container">
+                <img src="assets/agent_config_dashboard_sv.png" class="dash-img">
+            </div>
+
+            <div class="grid-features">
+                <div class="feature-block">
+                    <h3>Kunskapsbas (RAG)</h3>
+                    <p>Koppla agenten till företagets dokument. Den lär sig er identitet, tjänster och erbjudanden för
+                        att svara korrekt—direkt.</p>
+                </div>
+                <div class="feature-block">
+                    <h3>Identitet & Mission</h3>
+                    <p>Skräddarsy personlighet och röst. Säkerställ att varje interaktion linjerar med ert varumärkes
+                        "tone-of-voice". Bygg förtroende.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE 7: STRATEGIC ROI & PERFORMANCE -->
+        <div class="page page-performance"
+            style="background: radial-gradient(circle at 100% 100%, #0c0c14 0%, var(--bg-color) 60%);">
+            <div class="label">/// PRESTANDA MÄTETAL</div>
+            <h2 style="font-size: 32pt; margin-top: 10px; margin-bottom: 20px;">ÖKA KAPACITETEN.<br><span
+                    class="text-gradient">INTE KOSTNADERNA.</span></h2>
+
+            <p style="color: var(--text-muted); max-width: 500px; margin-bottom: 30px;">
+                Axie Studio är inte bara en kostnad; det är en tillväxtmotor. Genom att driftsätta autonoma agenter
+                frigör ni tid för era medarbetare att fokusera på strategi, medan AI:n hanterar volymen.
+            </p>
+
+            <div class="dash-visual-container" style="height: 380px;">
+                <img src="performance_roi_charts_v3_1768997228612.png" class="dash-img" style="object-fit: cover;">
+            </div>
+
+            <div class="grid-features" style="margin-top: 40px;">
+                <div class="feature-block">
+                    <h3 style="color: var(--accent-color);">90% Effektivitet</h3>
+                    <p>Automatisera rutinfrågor direkt. Minska ärendevolymer och optimera era resurser omedelbart.</p>
+                </div>
+                <div class="feature-block">
+                    <h3 style="color: var(--accent-color);">Noll Latens</h3>
+                    <p>Våra edge-optimerade röster säkerställer att kunder aldrig känner "AI-fördröjningen", vilket ger
+                        högre kundnöjdhet (CSAT).</p>
+                </div>
+                <div class="feature-block">
+                    <h3 style="color: var(--accent-color);">24/7 Suveränitet</h3>
+                    <p>Missa aldrig ett lead. Er verksamhet är vaken och aktiv i alla tidszoner. Sov inte på saken.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SHEET 2 OUTSIDE: PAGE 6 (Security) & PAGE 3 (Voice) -->
+    <div class="spread">
+        <!-- PAGE 6: ENTERPRISE SECURITY -->
+        <div class="page page-security" style="background: linear-gradient(135deg, #050508 0%, #111116 100%);">
+            <div class="label">/// ENTERPRISE GRADE</div>
+            <h2 style="font-size: 32pt; margin-top: 10px; margin-bottom: 20px;">REVISIONSSÄKER<br><span
+                    class="text-gradient">SUVERÄNITET.</span></h2>
+
+            <p style="color: var(--text-muted); max-width: 500px; margin-bottom: 30px;">
+                Er data är er viktigaste tillgång. Axie Studio bygger på "Privacy by Design", vilket garanterar att er
+                kunskapsbas förblir säker och stannar inom era väggar.
+            </p>
+
+            <div class="dash-visual-container" style="height: 380px;">
+                <img src="enterprise_security_server_v3_1768997209671.png" class="dash-img" style="object-fit: cover;">
+            </div>
+
+            <div class="grid-features" style="margin-top: 40px;">
+                <div class="feature-block">
+                    <h3>Privat Moln</h3>
+                    <p>Kör på er egen infrastruktur eller vårt SOC2 Type II-kompatibla moln. Ni äger orkestreringen.</p>
+                </div>
+                <div class="feature-block">
+                    <h3>GDPR Native</h3>
+                    <p>Inbyggd anonymisering och datalokalisering för att efterleva strikta globala regelverk.</p>
+                </div>
+                <div class="feature-block">
+                    <h3>Audit Logging</h3>
+                    <p>Spåra varje beslut, varje svar och varje verktygsanrop för full transparens.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE 3: VOICE & INTUITION -->
+        <div class="page page-voice">
+            <div class="voice-content-side">
+                <h2 style="font-size: 36pt; line-height: 1;">LATENS ÄR<br><span class="text-gradient">FIENDEN.</span>
+                </h2>
+
+                <p style="margin-top: 20px; color: var(--text-muted); font-size: 11pt;">
+                    Varför Axie Agenter känns mänskliga:
+                </p>
+
+                <ul style="margin-top: 20px; list-style: none; color: var(--text-muted);">
+                    <li style="margin-bottom: 15px;">
+                        <strong style="color:white; display:block;">1. Verklighetstrogna Röster</strong>
+                        Drivs av ElevenLabs Turbo v2.5 för emotionell nyans.
+                    </li>
+                    <li style="margin-bottom: 15px;">
+                        <strong style="color:white; display:block;">2. Smarta Avbrott (VAD)</strong>
+                        Med <em>Voice Activity Detection</em> vet våra agenter exakt när de ska sluta prata och lyssna.
+                    </li>
+                    <li style="margin-bottom: 15px;">
+                        <strong style="color:white; display:block;">3. Noll Latens</strong>
+                        Optimerad edge-transport gör att samtal flyter naturligt utan "robot-pauser".
+                    </li>
+                </ul>
+
+                <div
+                    style="margin-top: 30px; padding: 20px; border: 1px solid var(--card-border); border-radius: 8px; background: rgba(255,255,255,0.02);">
+                    <span class="label" style="color: var(--accent-color);">VERKLIGT ANVÄNDARFALL</span>
+                    <p style="margin-top: 10px; font-size: 10pt;">
+                        <strong>Kundtjänst 24/7</strong><br>
+                        "Svarar på återkommande frågor via Kunskapsbas."<br>
+                        Agenten kan er identitet, mission och tjänster—utan och innan.
+                    </p>
+                </div>
+            </div>
+            <div class="voice-visual-side">
+                <img src="assets/mobile_voice_action.png" class="voice-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- SHEET 2 INSIDE: PAGE 4 (Orchestrator) & PAGE 5 (Integrations) (Tumbles) -->
+    <div class="spread tumble">
+        <!-- PAGE 4: THE ORCHESTRATOR -->
+        <div class="page page-orchestration"
+            style="background: radial-gradient(circle at 0% 50%, #161625 0%, var(--bg-color) 70%);">
+            <div class="label">/// AVANCERAD LOGIK</div>
+            <h2 style="font-size: 32pt; margin-top: 10px; margin-bottom: 20px;">FLERDUBBLA ER<br><span
+                    class="text-gradient">ARBETSKRAFT.</span></h2>
+
+            <p style="color: var(--text-muted); max-width: 500px; margin-bottom: 30px;">
+                En agent är en specialist. Ett team av agenter är ett imperium. Axie Studio låter er orkestrera flera
+                intelligenta enheter som koordinerar för att lösa komplexa problem.
+            </p>
+
+            <div class="dash-visual-container" style="height: 380px;">
+                <img src="agent_orchestration_hero_v2_1768997160918.png" class="dash-img" style="object-fit: cover;">
+            </div>
+
+            <div class="grid-features" style="margin-top: 40px;">
+                <div class="feature-block">
+                    <h3>Delegering</h3>
+                    <p>Huvudagenten bryter ner mål och delegerar till specialiserade under-agenter för research, bokning
+                        eller support.</p>
+                </div>
+                <div class="feature-block">
+                    <h3>Delad Kontext</h3>
+                    <p>Hela svärmen är uppdaterad i realtid. Sömlösa överlämningar, noll friktion.</p>
+                </div>
+                <div class="feature-block">
+                    <h3>Konflikthantering</h3>
+                    <p>Sofistikerad logik säkerställer att agenter ger konsekvent och korrekt information. Varje gång.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE 5: ECOSYSTEM & INTEGRATIONS -->
+        <div class="page page-integrations"
+            style="background: radial-gradient(circle at 100% 50%, #0d0d16 0%, var(--bg-color) 70%);">
+            <div class="label">/// ANSLUTNINGAR</div>
+            <h2 style="font-size: 32pt; margin-top: 10px; margin-bottom: 20px;">ERA VERKTYG,<br><span
+                    class="text-gradient">NU MED EN HJÄRNA.</span></h2>
+
+            <p style="color: var(--text-muted); max-width: 500px; margin-bottom: 30px;">
+                Axie Agenter lever inte i ett vakuum. De kopplar direkt till mjukvaran ni redan använder och förvandlar
+                statisk data till en agerbar, konverserande upplevelse.
+            </p>
+
+            <div class="dash-visual-container" style="height: 380px;">
+                <img src="tech_ecosystem_integrations_v2_1768997181300.png" class="dash-img" style="object-fit: cover;">
+            </div>
+
+            <div class="grid-features" style="margin-top: 40px;">
+                <div class="feature-block">
+                    <h3>CRM Integration</h3>
+                    <p>Synka leads direkt till Salesforce, HubSpot eller er databas via RESTful API:er.</p>
+                </div>
+                <div class="feature-block">
+                    <h3>Omnichannel</h3>
+                    <p>Driftsätt via Röst, WhatsApp, Slack och Webb. En konsekvent intelligens, överallt.</p>
+                </div>
+                <div class="feature-block">
+                    <h3>Aktionsverktyg</h3>
+                    <p>Låt agenter agera i verkligheten: boka möten i Google Calendar, hantera ordrar eller trigga
+                        webhooks.</p>
                 </div>
             </div>
         </div>

@@ -16,7 +16,8 @@ const fs = require('fs');
 
   await page.pdf({
     path: path.join(__dirname, 'AxieStudio_Brochure_EN.pdf'),
-    format: 'A4',
+    format: 'A3',
+    landscape: true,
     printBackground: true,
     preferCSSPageSize: true,
     margin: { top: '0px', right: '0px', bottom: '0px', left: '0px' }
@@ -31,7 +32,8 @@ const fs = require('fs');
 
   await page.pdf({
     path: path.join(__dirname, 'AxieStudio_Brochure_SV.pdf'),
-    format: 'A4',
+    format: 'A3',
+    landscape: true,
     printBackground: true,
     preferCSSPageSize: true,
     margin: { top: '0px', right: '0px', bottom: '0px', left: '0px' }
